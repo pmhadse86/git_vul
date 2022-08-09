@@ -1,0 +1,48 @@
+{
+    "name": "theorchard/ows-carveout",
+    "type": "api",
+    "description": "A simple silex skeleton for rest api",
+    "homepage": "http://github.com/theorchard/ows-carveout",
+    "authors": [
+        {
+            "name": "Charles Small",
+            "email": "csmall@theorchard.com"
+        },
+        {
+            "name": "Jian Wu",
+            "email": "jian@theorchard.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "^6.2",
+        "theorchard/monolog-cascade": "^0.5.1",
+        "silex/silex": "~2.0",
+        "sentry/sentry": "~1.10.0",
+        "monolog/monolog": "~1.6",
+        "justinrainbow/json-schema": ">=3.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.2.6",
+        "mockery/mockery": "0.9.3",
+        "pdepend/pdepend": "1.1.1",
+        "phpmd/phpmd": "1.5.0",
+        "sebastian/phpcpd": "2.0.0",
+        "phploc/phploc": "2.0.3",
+        "mayflower/php-codebrowser": "1.1.1",
+        "squizlabs/php_codesniffer": "~2.7.1",
+        "symfony/browser-kit": "@stable",
+        "phpunit/dbunit": "~1.4",
+        "vlucas/phpdotenv": "~2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Orchard\\Ows\\Carveout\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Orchard\\Ows\\Carveout\\Tests\\": "tests/"
+        }
+    }
+}
