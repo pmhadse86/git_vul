@@ -1,0 +1,22 @@
+{
+    "name": "theorchard/ows-carveout",
+    "type": "api",
+    "description": "A simple silex skeleton for rest api",
+    "homepage": "http://github.com/theorchard/ows-carveout",
+    "authors": [
+        {
+            "name": "Charles Small",
+            "email": "csmall@theorchard.com"
+        },
+        {
+            "name": "Jian Wu",
+            "email": "jian@theorchard.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "^6.2"
+
+    }
+
+}
