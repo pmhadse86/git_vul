@@ -16,7 +16,7 @@
     "require": {
         "php": ">=5.4.0",
         "guzzlehttp/guzzle": "^6.2",
-        "theorchard/monolog-cascade": "^0.5.1",
+        "theorchard/monolog-cascade": "^0.6.0",
         "silex/silex": "~2.0",
         "sentry/sentry": "~1.10.0",
         "monolog/monolog": "~1.6",
